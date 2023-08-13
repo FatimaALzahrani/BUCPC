@@ -1,10 +1,10 @@
 # Table of conent :
-    * [Problem](#Discription)
-    * [Input](#Discription)
-    * [Output](#Discription)
-    * [Examples](#Discription)
-    * [Explain in Arabic](#Explain_in_Arabic)
-    * [Solutions](#Solutions)
+   * [Problem](#Discription)
+   * [Input](#Discription)
+   * [Output](#Discription)
+   * [Examples](#Discription)
+   * [Explain in Arabic](#Explain_in_Arabic)
+   * [Solutions](#Solutions)
 
 ## Discription
 The Google Club for developer students at Al-Baha University (GCDBU) holding a competition for competitive programming (BUCPC). This would not have been possible without the amazing efforts of GCDBU member and the College of Computer Science and Information Technology, especially Dr. Nizar Al-Sharif and Dr. Maha Al-Omari . Al baha University has been going above and beyond in investing into youth and technology. Fatima, the winner of the first BUCPC contest, wonders how many hands she will shake while getting her medal. Fatima will shake hands with all the judging committee on the stage. Fatima knows that in a group of N people, the total number of different possible handshakes (i.e., everyone shakes hands with everyone) is $(N⋅(N-1))/2$, but Fatima only cares about the number of different people she will shake hands with. Can you help Fatima answer this question?
@@ -23,6 +23,14 @@ Print one integer, the number of people Fatima will handshake.
 
 ## Explain_in_Arabic
 قام نادي قوقل بمسابقة البرمجة التنافسية لجامعة الباحة بمساعدة د.نزار ود.مها , فازت الطالبة فاطمة وتسائلت عن عدد الايادي (الناس) اللي بتصافحهم أثناء حصولها على ميداليتها مع العلم انها بتصافح جميع أعضاء لجنة التحكيم على المنصة.
+<br>
 المدخلات : بتكون عدد الناس على المسرح (فاطمة وأعضاء لجنة التحكيم) وبيكون العدد اكثر من 2 واقل من 100 فعادي نستخدم نوع بيانات صغير (int , byte) 
+<br>
 المخرجات : عدد الناس اللي بتصافحهم فاطمة
+<br>
 الحل : عدد الناس على المسرح (n) ناقص 1 , والسبب ان فاطمة بتصافح جميع الناس في المسرح عدا نفسها
+
+## Solutions
+   * [c++](#https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/A/A.cpp)
+   * [java](#https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/A/A.java)
+   * [python](#https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/A/A.py)
