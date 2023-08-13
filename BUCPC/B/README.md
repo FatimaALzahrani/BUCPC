@@ -1,4 +1,4 @@
-   ![header](https://capsule-render.vercel.app/api?type=waving&color=F7F7F7&height=300&section=header&text=B.%20Parentheses%20Validity%20Checker&descAlignY=51&descAlign=62)
+   ![header](https://capsule-render.vercel.app/api?type=waving&color=F7F7F7&height=300&section=header&text=B.%20Parentheses%20Validity&descAlignY=51&descAlign=62)
 
 ## Table of conent :
    * [Problem](#Discription)
