@@ -1,4 +1,6 @@
-# Table of conent :
+   ![header](https://capsule-render.vercel.app/api?type=waving&color=75FA8D&height=300&section=header&text=A.%20Shake%20hands&descAlignY=51&descAlign=62)
+
+## Table of conent :
    * [Problem](#Discription)
    * [Input](#Discription)
    * [Output](#Discription)
@@ -22,15 +24,17 @@ Print one integer, the number of people Fatima will handshake.
 |5|4|
 
 ## Explain_in_Arabic
-قام نادي قوقل بمسابقة البرمجة التنافسية لجامعة الباحة بمساعدة د.نزار ود.مها , فازت الطالبة فاطمة وتسائلت عن عدد الايادي (الناس) اللي بتصافحهم أثناء حصولها على ميداليتها مع العلم انها بتصافح جميع أعضاء لجنة التحكيم على المنصة.
+**وصف السؤال :** قام نادي قوقل بمسابقة البرمجة التنافسية لجامعة الباحة بمساعدة د.نزار ود.مها , فازت الطالبة فاطمة وتسائلت عن عدد الايادي (الناس) اللي بتصافحهم أثناء حصولها على ميداليتها مع العلم انها بتصافح جميع أعضاء لجنة التحكيم على المنصة.
 <br>
-المدخلات : بتكون عدد الناس على المسرح (فاطمة وأعضاء لجنة التحكيم) وبيكون العدد اكثر من 2 واقل من 100 فعادي نستخدم نوع بيانات صغير (int , byte) 
+**المدخلات :** بتكون عدد الناس على المسرح (فاطمة وأعضاء لجنة التحكيم) وبيكون العدد اكثر من 2 واقل من 100 فعادي نستخدم نوع بيانات صغير (int , byte) 
 <br>
-المخرجات : عدد الناس اللي بتصافحهم فاطمة
+**المخرجات :** عدد الناس اللي بتصافحهم فاطمة
 <br>
-الحل : عدد الناس على المسرح (n) ناقص 1 , والسبب ان فاطمة بتصافح جميع الناس في المسرح عدا نفسها
+**الحل :** عدد الناس على المسرح (n) ناقص 1 , والسبب ان فاطمة بتصافح جميع الناس في المسرح عدا نفسها
 
 ## Solutions
-   * [c++](#https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/A/A.cpp)
-   * [java](#https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/A/A.java)
-   * [python](#https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/A/A.py)
+  <ol type="1">
+      	<li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/A/A.cpp">c++</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/A/A.java">java</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/A/A.py">python</a></li>
+      </ol>
