@@ -1,48 +1,50 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+
 using namespace std;
-int main()
-{
-    int t;
-    cin >> t;
-    while (t--)
-    {
+
+int main() {
+    int T;
+    cin >> T;
+
+    for (int i = 0; i < T; i++) {
         int n;
         cin >> n;
-        int sum = 0;
-        vector<int> v;
-        for (int i = 0; i < n; i++)
-        {
-            int a;
-            cin >> a;
-            v.push_back(a);
+        vector<int> Ar;
+        int tmp = 0;
+        int key = 0;
+        int count = 0;
+        int k = n;
+        for (int j = 0; j < n; j++) {
+            int num;
+            cin >> num;
+            Ar.push_back(num);
         }
-        int key = v.at(0);
-        int r = 0;
-        // loop عشان نلقى الاكبر
-        while (v.size() != 0)
-        {
-            for (int i = 0; i < n; i++)
-            {
-                if (v.at(i) > key)
-                {
-                    key = v.at(i);
-                    r = i;
+
+        while (true) {
+            for (int j = 0; j < Ar.size(); j++) {
+                if (Ar[j] < tmp) {
+                    tmp = Ar[j];
+                    key = j;
                 }
             }
 
-            for (int i = r; i < n; i++)
+            for (int i = key; i < n; i++)
             {
-                v.pop_back();
+                Ar.pop_back();
             }
-            sum++;
+            count++;
+            if (Ar.empty()) {
+                break;
+            }
         }
-        if (n % 2 == 0)
-        {
+
+        if (count % 2 == 0) {
             cout << "Hoor" << endl;
-        }
-        else
-        {
+        } else {
             cout << "Majd" << endl;
         }
     }
+
+    return 0;
 }
