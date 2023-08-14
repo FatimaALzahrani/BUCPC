@@ -11,17 +11,17 @@
 
 ## Discription
 Majd and Hoor are close friends and they like playing games together. One day, they came up with a new game.
-The rules of the game are as follows:
-•	They will make a list of N numbers to play with.
-•	Hoor plays first and the two players make moves in alternating turns.
-•	In a single move, a player chooses the maximum number in the list and removes it as well as all the other elements to its right. If there are multiple elements with the maximum value, the player chooses the leftmost element.
-•	The first player who is unable to make a move, loses the game.
+The rules of the game are as follows:<br>
+•	They will make a list of N numbers to play with.<br>
+•	Hoor plays first and the two players make moves in alternating turns.<br>
+•	In a single move, a player chooses the maximum number in the list and removes it as well as all the other elements to its right. If there are multiple elements with the maximum value, the player chooses the leftmost element.<br>
+•	The first player who is unable to make a move, loses the game.<br>
 You will be given a list of N numbers. Can you tell who will win this round according to the rules?
 
 ## Input
 The first line contains a single integer $T$ the number of test cases $(1 ≤ T ≤ 10)$.
 The first line of each test case contains one integer $N$ $(1 ≤ N ≤ 100) $- denoting the number of elements in the list.
-The second line of each test case contains $N$ numbers $a_1,a_2,..,a_n$ . $(1 ≤ ai ≤10^5)$.
+The second line of each test case contains $N$ numbers $a_1,a_2,..,a_n$ . $(1 ≤ a_i ≤10^5)$.
 
 
 ## Output
@@ -35,17 +35,12 @@ For each test case, print the name of the winner either “Majd” or “Hoor”
 ## Explain_in_Arabic
 **وصف السؤال :**
 
-مجد وحور صديقتان ويحبان اللعب معًا. ذات يوم ، جاءوا بلعبة جديدة.
-قواعد اللعبة كما يلي:
-
-• سيقومون بعمل قائمة بأرقام N للعب بها.
-
-• تلعب حور أولاً وتقوم هي ومجد بحركات بالتناوب.
-
-• في نقلة واحدة ، تختار اللاعبة أكبر عدد في المصفوفه وتشيله بالإضافة إلى جميع العناصر الأخرى الموجودة على يمينه. إذا كان أكبر عدد مكرر أكثر من مره ، تختار اللاعبة العنصر الموجود في أقصى اليسار.
-
-• أول لاعبة غير قادرة على القيام بحركة تخسر اللعبة.
-
+مجد وحور صديقتان وتحبان اللعب معًا. ذات يوم ، جاءوا بلعبة جديدة.
+قواعد اللعبة كما يلي: <br>
+• سيقومون بعمل قائمة بأرقام N للعب بها.<br>
+• تلعب حور أولاً وتقوم هي ومجد بحركات بالتناوب.<br>
+• في نقلة واحدة ، تختار اللاعبة أكبر عدد في المصفوفه وتشيله بالإضافة إلى جميع العناصر الأخرى الموجودة على يمينه. إذا كان أكبر عدد مكرر أكثر من مره ، تختار اللاعبة العنصر الموجود في أقصى اليسار.<br>
+• أول لاعبة غير قادرة على القيام بحركة تخسر اللعبة.<br>
 ستحصل على قائمة بأرقام N. هل يمكنك معرفة من سيفوز في هذه الجولة وفقًا للقواعد؟
 
 <br>
