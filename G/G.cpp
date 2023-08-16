@@ -1,18 +1,6 @@
 #include"bits/stdc++.h"
 using namespace std;
 
-#include <ext/pb_ds/assoc_container.hpp>
-#include <ext/pb_ds/tree_policy.hpp>
-using namespace __gnu_pbds;
-
-template<class x>
-using ordered_set = tree<x, null_type,less<x>, rb_tree_tag,tree_order_statistics_node_update>;
-
-#define int long long
-#define endl '\n'
-#define mod 1000000007
-//\
-#define mod 1686876991
 
 signed main () {
     cin.tie(0)->sync_with_stdio(0);
