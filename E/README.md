@@ -51,7 +51,7 @@ In the first sample you can press each button once and turn on all the bulbs. In
 
 ## Solutions
   <ol type="1">
-      	<li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/E/E.cpp">c++</a></li>
-        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/E/E.java">java</a></li>
-        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/E/E.py">python</a></li>
+      	<li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/E/E.cpp">c++</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/E/E.java">java</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/E/E.py">python</a></li>
       </ol>
