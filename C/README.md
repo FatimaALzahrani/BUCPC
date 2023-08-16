@@ -2,9 +2,9 @@
 
 ## Table of conent :
    * [Problem](#Discription)
-   * [Input](#Discription)
-   * [Output](#Discription)
-   * [Examples](#Discription)
+   * [Input](#Input)
+   * [Output](#Output)
+   * [Examples](#Examples)
    * [Explain in Arabic](#Explain_in_Arabic)
    * [Solutions](#Solutions)
 
@@ -54,7 +54,7 @@ For each test case, print the name of the winner either “Majd” or “Hoor”
 
 ## Solutions
   <ol type="1">
-      	<li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/C/C.cpp">c++</a></li>
-        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/C/C.java">java</a></li>
-        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/C/C.py">python</a></li>
+      	<li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/C/C.cpp">c++</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/C/C.java">java</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/C/C.py">python</a></li>
       </ol>
