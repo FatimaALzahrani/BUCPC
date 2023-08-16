@@ -2,9 +2,9 @@
 
 ## Table of conent :
    * [Problem](#Discription)
-   * [Input](#Discription)
-   * [Output](#Discription)
-   * [Examples](#Discription)
+   * [Input](#Input)
+   * [Output](#Output)
+   * [Examples](#Examples)
    * [Explain in Arabic](#Explain_in_Arabic)
    * [Solutions](#Solutions)
 
@@ -59,7 +59,7 @@ For each test case, print a single integer for each query denoting the index of 
 
 ## Solutions
   <ol type="1">
-      	<li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/G/G.cpp">c++</a></li>
-        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/G/G.java">java</a></li>
-        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/G/G.py">python</a></li>
+      	<li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/G/G.cpp">c++</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/G/G.java">java</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/G/G.py">python</a></li>
       </ol>
