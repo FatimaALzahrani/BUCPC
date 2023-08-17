@@ -5,9 +5,9 @@
 **وحل المشكلات باستخدام المنطق والتحليل والتخطيط**<br>
 **لتمكين الطلبة من تجربة اجواء المسابقة الحماسية والملهمة**
 
-* ***هُنا حلول المسائل الموجودة في المسابقة بالثلاث لغات (java,python,c++) , بالاضافة لشرح مبسط لكل مسأله***
+* **هُنا حلول المسائل الموجودة في المسابقة بالثلاث لغات (java,python,c++) , بالاضافة لشرح مبسط لكل مسأله**
 
-|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|
 |المسأله وشرحها|الحل بc++ | الحل ببايثون | الحل بجافا
 |[A. Shake hands](https://github.com/FatimaALzahrani/BUCPC/tree/main/A/README.md)|[A.cpp](https://github.com/FatimaALzahrani/BUCPC/tree/main/A/A.cpp)|[A.java](https://github.com/FatimaALzahrani/BUCPC/tree/main/A/A.java)|[A.py](https://github.com/FatimaALzahrani/BUCPC/tree/main/A/A.py)|
 |[B. Parentheses Validity Checker](https://github.com/FatimaALzahrani/BUCPC/tree/main/B/README.md)|[B.cpp](https://github.com/FatimaALzahrani/BUCPC/tree/main/B/B.cpp)|[B.java](https://github.com/FatimaALzahrani/BUCPC/tree/main/B/B.java)|[B.py](https://github.com/FatimaALzahrani/BUCPC/tree/main/B/B.py)|
@@ -20,4 +20,6 @@
 |[I. Strings Queries](https://github.com/FatimaALzahrani/BUCPC/tree/main/I/README.md)|[I.cpp](https://github.com/FatimaALzahrani/BUCPC/tree/main/I/I.cpp)| _ | _ |
 
 
-**🔴 عند مواجهة صعوبه في فهم أي مسأله لا تترددوا بالسؤال !**
+**🔴 عند مواجهة أي صعوبه في فهم أي مسأله لا تترددوا بالسؤال !**
+<img width="960" alt="2" src="https://github.com/FatimaALzahrani/BUCPC/assets/107775566/94b1ecd0-2c79-4250-9825-a67160af4034">
+
