@@ -1,4 +1,4 @@
-![BUCPC](https://github.com/FatimaALzahrani/BUCPC/assets/107775566/38fc5ee4-a6ba-45db-bc78-5223c09f2a79)
+<img width="960" alt="BUCPC" src="https://github.com/FatimaALzahrani/BUCPC/assets/107775566/7b86083f-0816-4898-af41-f1b32525ca18">
 
 **اهلا بكم مبرمجي المستقبل 👩🏻‍💻🪄**<br>
 **في مسابقة البرمجة التنافسية BUCPC لطلبة جامعة الباحة ✨**<br>
