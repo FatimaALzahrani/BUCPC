@@ -7,8 +7,8 @@
 
 * **هُنا حلول المسائل الموجودة في المسابقة بالثلاث لغات (java,python,c++) , بالاضافة لشرح مبسط لكل مسأله**
 
-|:--:|:--:|:--:|:--:|
 |المسأله وشرحها|الحل بc++ | الحل ببايثون | الحل بجافا
+|:--:|:--:|:--:|:--:|
 |[A. Shake hands](https://github.com/FatimaALzahrani/BUCPC/tree/main/A/README.md)|[A.cpp](https://github.com/FatimaALzahrani/BUCPC/tree/main/A/A.cpp)|[A.java](https://github.com/FatimaALzahrani/BUCPC/tree/main/A/A.java)|[A.py](https://github.com/FatimaALzahrani/BUCPC/tree/main/A/A.py)|
 |[B. Parentheses Validity Checker](https://github.com/FatimaALzahrani/BUCPC/tree/main/B/README.md)|[B.cpp](https://github.com/FatimaALzahrani/BUCPC/tree/main/B/B.cpp)|[B.java](https://github.com/FatimaALzahrani/BUCPC/tree/main/B/B.java)|[B.py](https://github.com/FatimaALzahrani/BUCPC/tree/main/B/B.py)|
 |[C. Game](https://github.com/FatimaALzahrani/BUCPC/tree/main/C/README.md)|[C.cpp](https://github.com/FatimaALzahrani/BUCPC/tree/main/C/C.cpp)|[C.java](https://github.com/FatimaALzahrani/BUCPC/tree/main/C/C.java)|[C.py](https://github.com/FatimaALzahrani/BUCPC/tree/main/C/C.py)|
@@ -21,5 +21,5 @@
 
 
 **🔴 عند مواجهة أي صعوبه في فهم أي مسأله لا تترددوا بالسؤال !**
-<img width="960" alt="2" src="https://github.com/FatimaALzahrani/BUCPC/assets/107775566/94b1ecd0-2c79-4250-9825-a67160af4034">
+<img width="960" alt="Ask me" src="https://github.com/FatimaALzahrani/BUCPC/assets/107775566/066f0206-0b3b-4b43-99cd-6fdbde4bc266">
 
