@@ -2,9 +2,9 @@
 
 ## Table of conent :
    * [Problem](#Discription)
-   * [Input](#Discription)
-   * [Output](#Discription)
-   * [Examples](#Discription)
+   * [Input](#Input)
+   * [Output](#Output)
+   * [Examples](#Examples)
    * [Explain in Arabic](#Explain_in_Arabic)
    * [Solutions](#Solutions)
 
@@ -53,7 +53,7 @@ Print "first" if the first team ranks higher, "second" if the second team ranks 
 
 ## Solutions
   <ol type="1">
-      	<li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/H/H.cpp">c++</a></li>
-        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/H/H.java">java</a></li>
-        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/H/H.py">python</a></li>
+      	<li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/H/H.cpp">c++</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/H/H.java">java</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/H/H.py">python</a></li>
       </ol>

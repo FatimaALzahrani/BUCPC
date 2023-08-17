@@ -2,9 +2,9 @@
 
 ## Table of conent :
    * [Problem](#Discription)
-   * [Input](#Discription)
-   * [Output](#Discription)
-   * [Examples](#Discription)
+   * [Input](#Input)
+   * [Output](#Output)
+   * [Examples](#Examples)
    * [Explain in Arabic](#Explain_in_Arabic)
    * [Solutions](#Solutions)
 
@@ -43,7 +43,7 @@ print "fair"if the sum of prices of the gifts that Ahmed and Mohammed received i
 
 ## Solutions
   <ol type="1">
-      	<li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/F/F.cpp">c++</a></li>
-        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/F/F.java">java</a></li>
-        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/F/F.py">python</a></li>
+      	<li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/F/F.cpp">c++</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/F/F.java">java</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/F/F.py">python</a></li>
       </ol>

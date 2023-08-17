@@ -2,9 +2,9 @@
 
 ## Table of conent :
    * [Problem](#Discription)
-   * [Input](#Discription)
-   * [Output](#Discription)
-   * [Examples](#Discription)
+   * [Input](#Input)
+   * [Output](#Output)
+   * [Examples](#Examples)
    * [Explain in Arabic](#Explain_in_Arabic)
    * [Solutions](#Solutions)
 
@@ -48,7 +48,7 @@ For each input string, produce an output of 'Yes' or 'No', signifying whether th
 
 ## Solutions
   <ol type="1">
-      	<li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/B/B.cpp">c++</a></li>
-        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/B/B.java">java</a></li>
-        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/BUCPC/B/B.py">python</a></li>
+      	<li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/B/B.cpp">c++</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/B/B.java">java</a></li>
+        <li><a href="https://github.com/FatimaALzahrani/BUCPC/blob/main/B/B.py">python</a></li>
       </ol>
