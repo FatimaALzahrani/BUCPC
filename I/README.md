@@ -1,4 +1,4 @@
-   ![header](https://capsule-render.vercel.app/api?type=waving&color=454545&height=300&section=header&text=I.%20SaudiCPC%20Fund&descAlignY=51&descAlign=62)
+   ![header](https://capsule-render.vercel.app/api?type=waving&color=454545&height=300&section=header&text=I.%20Strings%20Queries&descAlignY=51&descAlign=62)
 
 ## Table of conent :
    * [Problem](#Discription)
@@ -13,8 +13,8 @@
 String processing is a very important and challenging topic in competitive programming. There are so many algorithms that can be applied on strings and they often require a lot of focus to know them and be able to efficiently use them to solve a problem. Some contestants really excel at solving strings problems. This is one of these problems. Try to solve it.<br>
 
 You are given n strings of lowercase characters and equal length m, each one has an initial score of zero, and you are given $q$ queries of two types:	<br>
-   - "$1 index$": print the score of the index-th string.<br>
-   - "$2 i_1 len_1 i_2 len_2$": this type consists of 2 pairs of integers: ($i_1,len_1$) , ($i_2,len_2$) describing the following operation: let $s$ be the prefix of the $i_1$-th string with length exactly $len_1$ and t be the prefix of the $i_2$-th string with length exactly $len_2$, and let $P$ be length of the longest common prefix of $s$ and $t$. Now it is possible for all strings' scores to change. For each of them, its score is increased by the number of its prefixes which are either a prefix of $s$ or a prefix of $t$ and with a length greater than or equal to $P$. If $P$ is zero (no common prefix), nothing happens.<br>
+   - "1 index": print the score of the index-th string.<br>
+   - "2 $i_1 len_1 i_2 len_2$ ": this type consists of 2 pairs of integers: ($i_1,len_1$) , ($i_2,len_2$) describing the following operation: let $s$ be the prefix of the $i_1$-th string with length exactly $len_1$ and t be the prefix of the $i_2$-th string with length exactly $len_2$, and let $P$ be length of the longest common prefix of $s$ and $t$. Now it is possible for all strings' scores to change. For each of them, its score is increased by the number of its prefixes which are either a prefix of $s$ or a prefix of $t$ and with a length greater than or equal to $P$. If $P$ is zero (no common prefix), nothing happens.<br>
 Can you answer the queries?
 
 ## Input
