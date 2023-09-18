@@ -1,49 +1,30 @@
 #include <iostream>
-#include <vector>
-
 using namespace std;
 
 int main() {
-    int T;
-    cin >> T;
+    string s;
+    cin >> s;
+    int k;
+    cin >> k;
+    char re = '0';
 
-    for (int i = 0; i < T; i++) {
-        int n;
-        cin >> n;
-        vector<int> Ar;
-        int tmp = 0;
-        int key = 0;
+    for (int i = 0; i < s.length(); i++) {
         int count = 0;
-        int k = n;
-        for (int j = 0; j < n; j++) {
-            int num;
-            cin >> num;
-            Ar.push_back(num);
-        }
-
-        while (true) {
-            for (int j = 0; j < Ar.size(); j++) {
-                if (Ar[j] < tmp) {
-                    tmp = Ar[j];
-                    key = j;
-                }
-            }
-
-            for (int i = key; i < n; i++)
-            {
-                Ar.pop_back();
-            }
-            count++;
-            if (Ar.empty()) {
-                break;
+        for (int j = 0; j < s.length(); j++) {
+            if (s[i] == s[j]) {
+                count++;
             }
         }
-
-        if (count % 2 == 0) {
-            cout << "Hoor" << endl;
-        } else {
-            cout << "Majd" << endl;
+        if (count == k) {
+            re = s[i];
+            break;
         }
+    }
+
+    if (re == '0') {
+        cout << "NO" << endl;
+    } else {
+        cout << "YES " << re << endl;
     }
 
     return 0;
