@@ -1,4 +1,4 @@
-   ![header](https://capsule-render.vercel.app/api?type=waving&color=FFF200&height=300&section=header&text=D.%20software&descAlignY=51&descAlign=62)
+   ![header](https://capsule-render.vercel.app/api?type=waving&color=F79EC9&height=300&section=header&text=D.%20software&descAlignY=51&descAlign=62)
 
 ## Table of conent :
    * [Problem](#Discription)
