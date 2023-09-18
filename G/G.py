@@ -1,20 +1,7 @@
-from collections import deque
-
-while True:
-    n = int(input())
-    if n == 0:
-        break
-    
-    q = deque(range(1, n + 1))
-    
-    print("Discarded cards:", end="")
-    while len(q) > 1:
-        print(" ", q[0], sep="", end="")
-        q.popleft()
-        p = q[0]
-        q.popleft()
-        if len(q) > 0:
-            print(",", end="")
-        q.append(p)
-    
-    print("\nRemaining card:", q[0])
+n = int(input())
+if n == 5 or n == 4:
+    print("I'm very excited")
+elif n == 3 or n == 2 or n == 1:
+    print("I'm a little excited")
+elif n == 0:
+    print("I'm not excited")
