@@ -1,41 +1,37 @@
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author 12fat
+ */
 public class C {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int T=input.nextInt();
-        for (int i = 0; i < T; i++) {
-            int n=input.nextInt();
-            List<Integer> Ar=new ArrayList<>();
-            int tmp=0;
-            int key=0;
-            int count=0;
-            int k=n;
-           for (int j = 0; j < n; j++) {
-                Ar.add(input.nextInt());
-            }
-            while(true){
-             for (int j = 0; j < Ar.size(); j++) {
-                   if(Ar.get(j)<tmp){
-                   tmp=Ar.get(j);
-                   key=j;
+        String s=input.next();
+        int k=input.nextInt();
+        char re='0';
+        int count=0;
+        for (int i = 0; i < s.length(); i++) {
+            count=0;
+            for (int j = 0; j < s.length(); j++) {
+                if(s.charAt(i)==s.charAt(j)){
+                count++;
                 }
             }
-            for(int j = key; j < Ar.size(); j++) {
-                 Ar.remove(j);
+            if(count==k){
+            re=s.charAt(i);
+            break;
             }
-            count++;
-            k=Ar.size();
-            if(Ar.isEmpty())
-                break;
-            }
-            if(count%2==0){
-                System.out.println("Hoor");
-            }else
-                System.out.println("Majd");
-}        
 }
+        if(re=='0')
+         System.out.println("NO");
+     else
+             System.out.println("YES "+re);}
 }
