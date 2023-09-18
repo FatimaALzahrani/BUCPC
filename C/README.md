@@ -1,4 +1,4 @@
-   ![header](https://capsule-render.vercel.app/api?type=waving&color=99D9EA&height=300&section=header&text=C.%20Game&descAlignY=51&descAlign=62)
+   ![header](https://capsule-render.vercel.app/api?type=waving&color=FFFFFF&height=300&section=header&text=C.%20Good%20String&descAlignY=51&descAlign=62)
 
 ## Table of conent :
    * [Problem](#Discription)
@@ -10,47 +10,40 @@
 
 
 ## Discription
-Majd and Hoor are close friends and they like playing games together. One day, they came up with a new game.
-The rules of the game are as follows:<br>
-•	They will make a list of N numbers to play with.<br>
-•	Hoor plays first and the two players make moves in alternating turns.<br>
-•	In a single move, a player chooses the maximum number in the list and removes it as well as all the other elements to its right. If there are multiple elements with the maximum value, the player chooses the leftmost element.<br>
-•	The first player who is unable to make a move, loses the game.<br>
-You will be given a list of N numbers. Can you tell who will win this round according to the rules?
+A string is called k − good if there exists some character that appears at least k consecutive times in that string. Your task is to find if a given string S is a k − good string or not and if it is find the first character that satisfies the condition. 
 
 ## Input
-The first line contains a single integer $T$ the number of test cases $(1 ≤ T ≤ 10)$.
-The first line of each test case contains one integer $N$ $(1 ≤ N ≤ 100) $- denoting the number of elements in the list.
-The second line of each test case contains $N$ numbers $a_1,a_2,..,a_n$ . $(1 ≤ a_i ≤10^5)$.
+The input consists of one line. You will be given string S consisting only of lowercase English letters (1 ≤ |S| ≤ $10^3$) and an integer K (1 ≤ K ≤$10^3$) separated by a space
 
 
 ## Output
-For each test case, print the name of the winner either “Majd” or “Hoor” (both without quotations)
+If the string is a k − good string print "YES" (without the quotes and case insensitive) and the first character that satisfies the condition separated by a space. If not, print "NO" (without the quotes and case insensitive). 
+
 
 ## Examples
 |standard input|standard output|
 |:---:|:---:|
-|2 <br> 4 <br> 4  1  2  4 <br> 5 <br> 4  2  5  3  6|Majd  <br> Majd |
+|abcaa 5|NO |
+| helloo 2 | YES l |
+|eefaa 2 |YES e | 
 
 ## Explain_in_Arabic
 **وصف السؤال :**
 
-مجد وحور صديقتان وتحبان اللعب معًا. ذات يوم ، جاءوا بلعبة جديدة.
-قواعد اللعبة كما يلي: <br>
-• سيقومون بعمل قائمة بأرقام N للعب بها.<br>
-• تلعب حور أولاً وتقوم هي ومجد بحركات بالتناوب.<br>
-• في نقلة واحدة ، تختار اللاعبة أكبر عدد في المصفوفه وتشيله بالإضافة إلى جميع العناصر الأخرى الموجودة على يمينه. إذا كان أكبر عدد مكرر أكثر من مره ، تختار اللاعبة العنصر الموجود في أقصى اليسار.<br>
-• أول لاعبة غير قادرة على القيام بحركة تخسر اللعبة.<br>
-ستحصل على قائمة بأرقام N. هل يمكنك معرفة من سيفوز في هذه الجولة وفقًا للقواعد؟
+المسألة تتطلب منا أن نقوم بفحص سلسلة نصية معينة للتحقق مما إذا كانت هذه السلسلة "k-good" أم لا. سلسلة "k-good" هي سلسلة تحتوي على حرف يظهر على الأقل k مرات متتالية فيها. إذا كانت السلسلة "k-good"، فيجب علينا طباعة "YES" تليها أول حرف يظهر k مرات متتالية، وإذا لم تكن "k-good" فيجب علينا طباعة "NO".
+
+إذا كانت السلسلة S "k-good"، يجب طباعة "YES" متبوعًا بأول حرف يظهر k مرات متتالية في السلسلة. إذا لم تكن "k-good" يجب طباعة "NO".
 
 <br>
 
-**الحل :** يمكن حل هذه المسألة باستخدام "قائمة (vector/list)". وهذه الخطوات الرئيسية لحل هذه المسألة:<br>
-   1- قم بتمرير كل الارقام للقائمة. <br>
-   2- بنجيب أكبر عدد بالقائمة والمكان حقه واذا فيه تكرار بناخذ اول واحد لقيناه<br>
-   3- بنحذف كل العناصر على يمين أكبر عدد ونزيد العداد بواحد<br>
-   4- بنعيد الخطوات الين تصير القائمة فاضيه
-   5- بنتاكد اذا العدد يقبل القسمة على اثنين فالفائزة حور لأنها بدأت فيعني انها هي اخر من لعب واذا فردي مجد
+**الحل :** يمكن حل هذه المسألة بطرق كثيره جدا , وهذه احدى الطرق لحل هذه المسألة:<br>
+   1-  يتم قراءة السلسلة النصية s والعدد k من المدخلات. <br>
+   2- يتم استخدام متغير re لتخزين الحرف المطلوب ويتم تهيئته بالقيمة '0' كقيمة افتراضية.<br>
+   3-يتم استخدام حلقتين تضمان البحث عن الحرف المناسب:<br>
+   4- الحلقة الخارجية تمر على الأحرف الواحدة تلو الأخرى.<br>
+   5- الحلقة الداخلية تحسب عدد مرات ظهور الحرف الخارجي في السلسلة.<br>
+   6- إذا تم العثور على حرف يظهر k مرات، يتم تخزينه في المتغير re ويتم الخروج من الحلقتين.<br>
+   7- بعد الخروج من الحلقة الخارجية، يتم التحقق من قيمة المتغير re. إذا كان '0' يتم طباعة "NO"، وإلا يتم طباعة "YES" مع الحرف الذي تم العثور عليه.
 
 ## Solutions
   <ol type="1">
