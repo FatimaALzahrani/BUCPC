@@ -1,4 +1,4 @@
-   ![header](https://capsule-render.vercel.app/api?type=waving&color=FF7F27&height=300&section=header&text=G.%20Throwing%20cards%20away&descAlignY=51&descAlign=62)
+   ![header](https://capsule-render.vercel.app/api?type=waving&color=FFF200&height=300&section=header&text=G.%20Evaluation&descAlignY=51&descAlign=62)
 
 ## Table of conent :
    * [Problem](#Discription)
@@ -10,58 +10,50 @@
 
 
 ## Discription
-You have a deck of cards with numbers from 1 to n, where card 1 is at the top and card n is at the bottom. The following operation is performed repeatedly as long as there are at least two cards in the deck:<br>
-
-1. Discard the top card.<br>
-2. Move the card that is now on top of the deck to the bottom of the deck.<br>
-Your task is to simulate this process and determine the sequence of discarded cards and the last remaining card.
+I am the designer Rawan, and one of my hobbies is design. Member of the design team in the Google Club for Student Developers at Al Baha University, my latest creation was a teaser for the BUCPC competition. I had a lot of fun working on it. It feels good to make designs that make people happy.<br>
+But I wanted to make sure that everyone feels excited after seeing my designs. I need help from a programmer!<br>
+• If the rating is 5 or 4, print “I'm very excited.”<br>
+• If the rating is from 1 to 3, print “I'm a little excited.”<br>
+• If the rating is zero, print “I'm not excited.<br>
 
 
 ## Input
-Each line of input (except the last) contains an integer $n$ $(1 ≤ n ≤ 50)$. The last line contains a single integer '0', which should not be processed.
-
-
+You are given a number from 0 to 5
 
 
 ## Output
-For each input number, print two lines of output. The first line presents the sequence of discarded cards, and the second line reports the last remaining card. The output should follow the given format.
-
+Print t:<br>
+• If the rating is 5 or 4, print “I'm very excited” Without quotation marks.<br>
+• If the rating is from 1 to 3, print “I'm a little excited” Without quotation marks.<br>
+• If the rating is zero, print “I'm not excited” Without quotation marks.
 
 
 ## Examples
 |standard input|standard output|
 |:---:|:---:|
-| 7 <br>19<br>10<br>6<br>0 |Discarded cards: 1, 3, 5, 7, 4, 2<br>Remaining card: 6<br>Discarded cards: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 4, 8, 12, 16, 2, 10, 18, 14<br>Remaining card: 6<br>Discarded cards: 1, 3, 5, 7, 9, 2, 6, 10, 8<br>Remaining card: 4<br>Discarded cards: 1, 3, 5, 2, 6<br>Remaining card: 4|
+|5 |I'm very excited|
+|3|I'm a little excited|
+|0|I'm not excited|
 
 
 ## Explain_in_Arabic
 **وصف السؤال :**
-لديك مجموعة أوراق بأرقام من 1 إلى n ، حيث تكون البطاقة 1 في الأعلى والبطاقة n في الأسفل. يتم إجراء العملية التالية بشكل متكرر طالما أن هناك بطاقتان على الأقل في المجموعة:
-1. تجاهل البطاقة العلوية.
-2. انقل البطاقة الموجودة الآن أعلى السطح إلى أسفل المجموعة.
-مهمتك هي محاكاة هذه العملية وتحديد تسلسل البطاقات المهملة وآخر بطاقة متبقية.
+أنا المصممة روان، وواحدة من هواياتي هي التصميم. أنا عضو في فريق التصميم في نادي Google لمطوري الطلاب في جامعة الباحة، وآخر إبداعاتي كانت عبارة عن تمهيد لمسابقة BUCPC. لقد استمتعت كثيرًا بالعمل عليه. إنه يشعرني بالارتياح أن أصمم أشياء تجعل الناس سعداء.<br>
 
-يعني بيكون عندنا بطاقات مرتبة من 1 للعدد المدخل اذا ما كان صفر  , واحنا بنسوي عليهم عمليتين نطلع العدد الاول كمخرج واللي بعده نرجعه ورا ونكرر العمليه الين ما يبقا الا عدد واحد ونحط بالباقي  , ولو كان العدد صفر بنطلع خلاص <br>
-هنا مثال لو كان ال n=7
+لكنني أردت التأكد من أن الجميع سيشعرون بالحماس بعد رؤية تصميماتي. أحتاج إلى مساعدة من مبرمج!<br>
 
-<img width="317" alt="ex" src="https://github.com/FatimaALzahrani/BUCPC/assets/107775566/48ecfadd-7830-44b8-858f-124945087b4a">
+• إذا كان التقييم 5 أو 4، اطبع "أنا متحمس جدًا."<br>
+• إذا كان التقييم من 1 إلى 3، اطبع "أنا متحمس قليلاً."<br>
+• إذا كان التقييم صفر، اطبع "أنا غير متحمس."
 
 <br>
 
 **الحل :** 
-1. قراءة عدد البطاقات n.<br>
-2. داخل حلقة while تستمر حتى تكون قراءة n (n != 0).<br>
-   * إنشاء (queue) q لتمثيل التجميع , ليه كيو لانها تقدر تحذف من قدام
-   * قم بإضافة بطاقات من 1 إلى n إلى القائمة q.
-   * طباعة "Discarded cards:".
-   * داخل حلقة while تستمر ما دام حجم القائمة q أكبر من 1:
-      - طباعة البطاقة الأمامية في القائمة q وإزالتها.
-      - حفظ البطاقة الأمامية الجديدة في المتغير p.
-      - إذا لم تكن القائمة q فارغة، قم بطباعة فاصلة.
-      - أضف البطاقة p إلى نهاية القائمة q.
-      - طباعة البطاقة المتبقية في القائمة q.
-      - قم بإزالة البطاقة المتبقية من القائمة q.
-3. كرر الخطوة 1 حتى يتم قراءة n  (n != 0).
+1. قراْه عدد من المستخدم , ومن ثم عمل شروط :<br>
+2. اذا كان العدد 4 او 5 نطبع "I'm very excited" <br>
+3. اذا كان العدد 1 او 2 او 3 نطبع “I'm a little excited” <br>
+4-  اذا كان العدد صفر نطبع “I'm not excited” .
+   
 
 ## Solutions
   <ol type="1">
